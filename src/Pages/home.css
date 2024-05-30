@@ -1,0 +1,36 @@
+.container1 {
+    width: 90%;
+    max-width: 900px;
+    height: 300px;
+    border: solid 2px rgb(25, 163, 48);
+    margin: 50px auto; /* Centers the container */
+    padding: 20px; /* Adds some padding inside the container */
+  }
+  
+  /* .resume-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 50px auto 0;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+  } */
+
+  .btn{
+    margin: 30px;
+  }
+  img{
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+    border-radius: 20px;
+  }
+  .container-me {
+    width: 90%;
+    max-width: 900px;
+    height: 300px;
+    border: solid 2px red;
+    margin: 50px auto; /* Centers the container */
+    padding: 20px; /* Adds some padding inside the container */
+  }
+  

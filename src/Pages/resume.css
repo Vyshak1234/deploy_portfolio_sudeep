@@ -1,0 +1,28 @@
+label{
+    font-weight: 600;
+    font-size: 40px;
+    color: blue;
+    
+}
+.bg-slate-300{
+    margin-left: 250px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.box{
+    box-shadow: 10px 10px 10px 10px  lightblue;
+    width: 600px;
+    height: 200px;
+    margin-left: 33%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.comp p{
+    color: rgb(30, 54, 194);
+}
+.comp{
+    background-color: bisque;
+    height: 170px;
+    font-weight: 600;
+    margin-top: 10px;
+}
