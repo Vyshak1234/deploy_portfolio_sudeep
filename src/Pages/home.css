@@ -1,36 +1,65 @@
-.container1 {
-    width: 90%;
-    max-width: 900px;
-    height: 300px;
-    border: solid 2px rgb(25, 163, 48);
-    margin: 50px auto; /* Centers the container */
-    padding: 20px; /* Adds some padding inside the container */
-  }
-  
-  /* .resume-link {
-    text-decoration: none;
-    color: black;
-    display: block;
-    margin: 50px auto 0;
-    padding: 10px 20px;
-    margin-bottom: 30px;
-  } */
+/* Responsive container */
+.container1, .container-me {
+  width: 90%;
+  max-width: 900px;
+  height: auto; /* Adjust height to auto for responsiveness */
+  border: solid 2px;
+  margin: 50px auto; /* Centers the container */
+  padding: 20px; /* Adds some padding inside the container */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
 
-  .btn{
-    margin: 30px;
+.container1 {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resume-link {
+  margin-right: 10px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /* Adjust this value to your preference */
+}
+
+/* Specific border colors for containers */
+.container1 {
+  border-color: rgb(25, 163, 48);
+}
+
+.container-me {
+  border-color: red;
+}
+
+.btn {
+  margin: 30px;
+}
+
+img {
+  max-width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains the aspect ratio */
+  margin: 0 auto; /* Centers the image horizontally */
+  display: block; /* Makes the margin auto work for centering */
+  border-radius: 20px;
+}
+.bold-colorful {
+  font-weight: bold;
+  color: #b60e32;
+}
+
+/* Add media queries for further responsiveness */
+@media (max-width: 600px) {
+  .container1, .container-me {
+      padding: 10px; /* Reduce padding on smaller screens */
   }
-  img{
-    height: 300px;
-    width: 300px;
-    margin-left: 500px;
-    border-radius: 20px;
+  .btn {
+      margin: 15px; /* Reduce margin on smaller screens */
   }
-  .container-me {
-    width: 90%;
-    max-width: 900px;
-    height: 300px;
-    border: solid 2px red;
-    margin: 50px auto; /* Centers the container */
-    padding: 20px; /* Adds some padding inside the container */
-  }
-  
+  .bold-colorful {
+    font-size: 14px;
+}
+
+}

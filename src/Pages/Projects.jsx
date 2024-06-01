@@ -1,32 +1,30 @@
-import React from 'react'
-import './project.css'
+import React from 'react';
+import './project.css';
 
 function Projects() {
   return (
     <>
-      <h2>Projects</h2>
-      {/* media player */}
-      <div className="box">
-        <h3>Microsoft website Clone</h3>
-        <h4>HTML:5, CSS, javascript</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, dolorum sint. Excepturi tempora, vero animi ab explicabo consectetur optio nobis, omnis quis, consequuntur voluptatem aliquid! Quasi adipisci in voluptas earum.</p>
-       <a href="https://microsoft-clone-nu.vercel.app/">Live Link</a>
-       <a href="https://github.com/Sudeep606/microsoft-clone?files=1">Git Repo</a>
+      <h2 className="text-center mt-5">Projects</h2>
+
+      {/* Microsoft clone */}
+      <div className="box mt-4">
+        <h3>Microsoft Website Clone</h3>
+        <h4>HTML:5, CSS, JavaScript</h4>
+        <p></p>At the initial stage of my learning as a way to check my skils, I cloned the Microsoft website using HTML ,CSS and JavaScript.
+        <a href="https://microsoft-clone-nu.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+        <a href="https://github.com/Sudeep606/microsoft-clone?files=1" target="_blank" rel="noopener noreferrer">Git Repo</a>
       </div>
 
-{/* ecart */}
-<div className="box">
+      {/* Ecart */}
+      <div className="box mt-4">
         <h3>Media Player</h3>
-        <h4>HTML:5, CSS, javascript, React, JSON</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, dolorum sint. Excepturi tempora, vero animi ab explicabo consectetur optio nobis, omnis quis, consequuntur voluptatem aliquid! Quasi adipisci in voluptas earum.</p>
-       <a href="https://vercel.com/sudeeps-projects-4aa2267e/media-player">Live Link</a>
-       <a href="https://github.com/Sudeep606/media-player">Git Repo</a>
+        <h4>HTML:5, CSS, JavaScript, React, JSON, Node</h4>
+        <p>It's a video library where you can store your favourite contents. It has the features of adding video, watch history and personal account as well. It's build using HTML, CSS ,Javascript, React and Node </p>
+        <a href="https://vercel.com/sudeeps-projects-4aa2267e/media-player" target="_blank" rel="noopener noreferrer">Live Link</a>
+        <a href="https://github.com/Sudeep606/media-player" target="_blank" rel="noopener noreferrer">Git Repo</a>
       </div>
-     
-
-
-        </>
-  )
+    </>
+  );
 }
 
-export default Projects
+export default Projects;

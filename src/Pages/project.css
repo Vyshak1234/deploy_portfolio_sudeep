@@ -1,17 +1,32 @@
-h2{
+h2 {
     text-align: center;
     color: blueviolet;
 }
 
-a{
+a {
     margin-left: 30px;
+    display: inline-block; /* Ensures consistent spacing */
 }
-h3{
+
+h3, h4, p {
     margin-left: 10px;
 }
-h4{
-    margin-left: 10px;
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    a {
+        margin-left: 15px; /* Reduce margin for smaller screens */
+    }
+    h3, h4, p {
+        margin-left: 5px; /* Reduce margin for smaller screens */
+    }
 }
-p{
-    margin-left: 10px;
+
+@media (max-width: 480px) {
+    a {
+        margin-left: 10px; /* Further reduce margin for very small screens */
+    }
+    h3, h4, p {
+        margin-left: 0; /* Remove margin for very small screens */
+    }
 }

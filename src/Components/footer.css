@@ -1,0 +1,42 @@
+.footer {
+    background-color: gray;
+    color: black;
+    padding: 20px 0;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .social-links a {
+    margin: 0 15px;
+    color: black;
+  }
+  
+  .social-links a i {
+    margin-top: 20px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .social-links a {
+      margin: 0 10px;
+    }
+  
+    .social-links a i {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .social-links a {
+      margin: 0 5px;
+    }
+  
+    .social-links a i {
+      margin-top: 5px;
+    }
+  }
+  
