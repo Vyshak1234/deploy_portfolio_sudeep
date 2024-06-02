@@ -14,7 +14,7 @@ function Header() {
             <Nav className="ms-auto">
               <Nav.Link href="home">Home</Nav.Link>
               <Nav.Link href="resume">Resume</Nav.Link>
-              <Nav.Link href="projects">Projects</Nav.Link>
+              <Nav.Link href="project">Projects</Nav.Link>
               <Nav.Link href="mailto:ssudeep606@gmail.com">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>

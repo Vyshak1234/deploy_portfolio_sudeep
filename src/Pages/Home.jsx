@@ -19,7 +19,9 @@ function Home() {
           <Link to="/resume" className="btn btn-primary resume-link me-2">
             Resume
           </Link>
-          <Link to="/projects" className="btn btn-success">Projects</Link>
+          <Link to="/project" className="btn btn-primary resume-link me-2">
+            Projects
+          </Link>
         </div>
       </div>
 

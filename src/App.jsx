@@ -1,25 +1,26 @@
-import { Routes,Route } from 'react-router-dom'
-import './App.css'
-import Home from './Pages/Home'
-import Resume from './Pages/Resume'
-import Projects from './Pages/Projects'
-import Header from './Components/Header'
-import LandingPage from './Pages/LandingPage'
-import Footer from './Components/Footer'
-function App() {
+import { Routes, Route, Navigate } from 'react-router-dom';
+import './App.css';
+import Resume from './Pages/Resume';
+import Projects from './Pages/Projects';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Home from './Pages/Home';
 
+function App() {
   return (
-    <>
-    <Header/>
-      <Routes>
-        <Route path='/' element={<LandingPage/>}></Route>
-        <Route path='/home'element={<Home/>}></Route>
-        <Route path='/resume'element={<Resume/>}></Route>
-        <Route path='/projects'element={<Projects/>}></Route>
-      </Routes>
-      <Footer/>
-    </>
-  )
+      <>
+        <Header />
+        <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/resume' element={<Resume/>}/>
+      <Route path='/project' element={<Projects/>}/>
+      <Route path='/*' element={<Navigate to={'/'}/>}/>
+    </Routes>
+        <Footer />
+      </>
+  
+  );
 }
 
-export default App
+export default App;
+

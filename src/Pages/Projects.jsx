@@ -23,6 +23,13 @@ function Projects() {
         <a href="https://vercel.com/sudeeps-projects-4aa2267e/media-player" target="_blank" rel="noopener noreferrer">Live Link</a>
         <a href="https://github.com/Sudeep606/media-player" target="_blank" rel="noopener noreferrer">Git Repo</a>
       </div>
+      <div className="box mt-4">
+        <h3>Counter-App</h3>
+        <h4>HTML:5, CSS, JavaScript, React, JSON, Node</h4>
+        <p>A counter app is a simple mobile application or software program designed to keep track of a number through incrementing (adding) or decrementing (subtracting) a value.</p>
+        <a href="https://counter-app-seven-theta.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+        <a href="https://github.com/Sudeep606/counter-app" target="_blank" rel="noopener noreferrer">Git Repo</a>
+      </div>
     </>
   );
 }
