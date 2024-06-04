@@ -1,14 +1,7 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/static-build"
-      }
-    ],
+  
     "routes": [
-      { "src": "/favicon.ico", "dest": "/favicon.ico" },
-      { "src": "/static/(.*)", "dest": "/static/$1" },
+  
       { "src": "/home", "dest": "/" },
       { "src": "/resume", "dest": "/" },
       { "src": "/project", "dest": "/" },
